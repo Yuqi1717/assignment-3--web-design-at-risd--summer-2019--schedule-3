@@ -6,12 +6,14 @@
 .title {
    font-size: 60px;
    font-family: 'Palanquin Dark', sans-serif;
+   margin: 10px;
 }
 
 .subtitle {
    font-size: 20px;
    font-family: 'Palanquin Dark', sans-serif;
    border-color: pink;
+   margin: 10px;
 }
 
 .start {
@@ -35,8 +37,8 @@ div:nth-child(odd) {
 }
 
 div:nth-child(1) {
-   font-size: 50px;
-   font-family: 'Palanquin Dark', sans-serif;
+   font-size: 20px;
+   font-family: 'Mukta', sans-serif;
 }
 
 a:link {
