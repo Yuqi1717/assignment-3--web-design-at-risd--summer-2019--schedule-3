@@ -8,7 +8,6 @@
    font-size: 100px;
    font-weight: bold;
    text-align: center;
-   margin: 10px;
 }
 
 .subtitle {
@@ -16,7 +15,6 @@
    font-size: 40px;
    font-weight: bold;
    text-align: center;
-   margin: 2px;
 }
 
 h2 {
@@ -24,7 +22,7 @@ h2 {
    font-size: 60px;
    font-weight: bold;
    position: relative;
-   top: 30px;
+   top: 70px;
    left: 150px;
 }
 
@@ -33,7 +31,7 @@ h2 {
    font-size: 30px;
    font-weight: bold;
    position: relative;
-   top: 50px;
+   top: 110px;
    left: 150px;
 }
 
@@ -42,29 +40,29 @@ h2 {
    font-size: 15px;
    width: 30rem;
    position: relative;
-   top: 60px;
+   top: 120px;
    left: 150px;
 }
 
 .pics {
    position: relative;
-   top: -115px;
+   top: -90px;
+   right: -750px;
+}
+
+.pics07 {
+   position: relative;
+   top: -70px;
    right: -750px;
 }
 
 div {
-   height: 50vh;
+   height: 60vh;
    position: relative;
 }
 
 div:nth-child(even) {
    background-color: rgba(184, 214, 231, .2);
-}
-
-div:nth-child(1) {
-   background-color: white;
-   font-size: 20px;
-   font-family: 'Mukta', sans-serif;
 }
 
 a:link {
@@ -90,8 +88,8 @@ a:active {
    line-height: 30px;
    text-align: center;
    position: absolute;
-   bottom: 20px;
-   left: 20px;
+   top: 40px;
+   left: 40px;
 }
 
 .navbar {
