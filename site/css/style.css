@@ -4,16 +4,19 @@
 }
 
 .title {
-   font-size: 60px;
-   font-family: 'Palanquin Dark', sans-serif;
+   font-family: 'Mukta', sans-serif;
+   font-size: 100px;
+   font-weight: bold;
+   text-align: center;
    margin: 10px;
 }
 
 .subtitle {
-   font-size: 20px;
-   font-family: 'Palanquin Dark', sans-serif;
-   border-color: pink;
-   margin: 10px;
+   font-family: 'Mukta', sans-serif;
+   font-size: 40px;
+   font-weight: bold;
+   text-align: center;
+   margin: 2px;
 }
 
 .start {
@@ -32,14 +35,14 @@ div {
    position: relative;
 }
 
-div:nth-child(odd) {
-   background-color: #f5f5f5;
+div:nth-child(even) {
+   background-color: rgba(184, 214, 231, .2);
 }
 
 div:nth-child(1) {
+   background-color: white;
    font-size: 20px;
    font-family: 'Mukta', sans-serif;
-   margin: 20px;
 }
 
 a:link {
@@ -57,16 +60,10 @@ a:active {
    text-decoration: overline;
 }
 
-#mm {
-   margin: 10px;
-   padding: 20px;
-   text-align: center;
-}
-
 .link-to-nav {
    width: 30px;
    height: 30px;
-   background-color: #ffebcd;
+   background-color: rgba(184, 214, 231, .7);
    border-radius: 50%;
    line-height: 30px;
    text-align: center;
@@ -81,10 +78,19 @@ h2 {
    font-weight: bold;
 }
 
-.kk {
+.navbar {
+   height: 4vh;
    text-align: center;
 }
 
-.mm {
-   margin: 10px;
+.navbar ul {
+   display: inline-block;
+}
+
+.navbar li {
+   float: left;
+}
+
+.navbar li + li {
+   margin-left: 20px;
 }
