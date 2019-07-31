@@ -23,11 +23,14 @@
    font-family: 'Mukta', sans-serif;
    font-size: 30px;
    font-weight: bold;
+   margin: 5px 20px;
 }
 
 .contents {
    font-family: 'Mukta', sans-serif;
    font-size: 15px;
+   width: 30rem;
+   margin: 5px 20px;
 }
 
 div {
@@ -76,6 +79,7 @@ h2 {
    font-family: 'Mukta', sans-serif;
    font-size: 50px;
    font-weight: bold;
+   margin: 30px 20px;
 }
 
 .navbar {
