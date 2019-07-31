@@ -28,16 +28,16 @@ body {
    font-family: Mukta, sans-serif;
    display: flex;
    position: relative;
-   height: 60vh;
+   height: 80vh;
    background-color: white;
-   margin-left: 70px;
+   margin-left: 150px;
 }
 
 .item h2 {
    font-family: Mukta, sans-serif;
    font-size: 60px;
    font-weight: 700;
-   margin-top: 30px;
+   margin-top: 110px;
 }
 
 .item h2 span {
@@ -51,12 +51,18 @@ body {
    margin-top: 50px;
 }
 
-.item p {
-   margin-top: 10px;
+.item-02 {
+   width: 50%;
 }
 
-div (1th child) {
-   width: 70%;
+.item-02 p {
+   margin-top: 20px;
+   line-height: 1.2rem;
+}
+
+.item-03 {
+   margin-top: 40px;
+   margin-right: 20px;
 }
 /* .start {
    font-family: 'Mukta', sans-serif;
@@ -103,8 +109,8 @@ a:active {
    line-height: 30px;
    text-align: center;
    position: absolute;
-   top: 40px;
-   left: 40px;
+   bottom: 10px;
+   left: 10px;
 }
 
 .navbar {
