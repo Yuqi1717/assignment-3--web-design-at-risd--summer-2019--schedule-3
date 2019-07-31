@@ -19,18 +19,37 @@
    margin: 2px;
 }
 
+h2 {
+   font-family: 'Mukta', sans-serif;
+   font-size: 60px;
+   font-weight: bold;
+   position: relative;
+   top: 30px;
+   left: 150px;
+}
+
 .start {
    font-family: 'Mukta', sans-serif;
    font-size: 30px;
    font-weight: bold;
-   margin: 5px 20px;
+   position: relative;
+   top: 50px;
+   left: 150px;
 }
 
 .contents {
    font-family: 'Mukta', sans-serif;
    font-size: 15px;
    width: 30rem;
-   margin: 5px 20px;
+   position: relative;
+   top: 60px;
+   left: 150px;
+}
+
+.pics {
+   position: relative;
+   top: -115px;
+   right: -750px;
 }
 
 div {
@@ -73,13 +92,6 @@ a:active {
    position: absolute;
    bottom: 20px;
    left: 20px;
-}
-
-h2 {
-   font-family: 'Mukta', sans-serif;
-   font-size: 50px;
-   font-weight: bold;
-   margin: 30px 20px;
 }
 
 .navbar {
