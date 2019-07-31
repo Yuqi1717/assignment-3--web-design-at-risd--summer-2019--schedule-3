@@ -15,8 +15,14 @@
 }
 
 .start {
-   font-family: 'Palanquin Dark', sans-serif;
+   font-family: 'Mukta', sans-serif;
    font-size: 30px;
+   font-weight: bold;
+}
+
+.contents {
+   font-family: 'Mukta', sans-serif;
+   font-size: 15px;
 }
 
 div {
@@ -59,6 +65,7 @@ a:active {
 }
 
 h2 {
-   font-family: 'Palanquin Dark', sans-serif;
+   font-family: 'Mukta', sans-serif;
    font-size: 50px;
+   font-weight: bold;
 }
